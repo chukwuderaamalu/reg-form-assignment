@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.ffr{
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.ssd{
+    width: 100%;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.ssd:hover{
+    border: 3px solid tomato
+}
+
+.data{
+    text-align: start;
+    margin-bottom: 80px;
+}
+
+.rre{
+    margin: 15px;
+}
+
+span{
+    color: bisque;
+}
+
+.dds{
+    color: rgba(136, 131, 131, 0.904);
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.nn{
+    display: grid;
+    place-content: center;
+    margin-top: 50px;
+   
+
+}
+
+
+
+.ffg{
+    margin-top: 15px;
+    text-align: center;
+}
+
+button{
+    padding: 15px 80px;
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
