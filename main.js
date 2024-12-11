@@ -31,9 +31,9 @@ data.innerHTML = ` Hi,${fName.value} your details:`
         emAddress.value = ``
         phNumber.value = ``
         data.innerHTML = `No details submitted yet!`
-        fullname.innerHTML = ``
+        fullname.innerHTML = `Please fill the form!`
         email.innerHTML = ``
         number.innerHTML = ``
-        submitted.innerHTML = `Please fill the form!`
+        submitted.innerHTML = ``
      }
 }
