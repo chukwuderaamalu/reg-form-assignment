@@ -21,7 +21,7 @@
 }
 
 .ssd:hover{
-    border: 3px solid tomato
+    border: 3px solid black
 }
 
 .data{
@@ -44,17 +44,15 @@ span{
 }
 
 
-.nn{
-    padding: 10px;
-   margin: 15px;
-
-}
-
-
 
 .ffg{
     margin-top: 15px;
     text-align: center;
+}
+
+.ssw{
+    display: grid;
+    place-content: center;
 }
 
 button{
@@ -65,4 +63,13 @@ button{
     border-radius: 10px;
     font-size: 15px;
     font-weight: bold;
+}
+
+@media screen and (max-width:600px) {
+    .nn{
+        padding: 10px;
+       margin-bottom: 25px;
+    
+    }
+    
 }
