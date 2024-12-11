@@ -12,6 +12,7 @@ let bott = document.querySelector(`.bott`);
 
 
 
+
 function myGirl () {
     
 
@@ -20,7 +21,8 @@ function myGirl () {
         fullname.innerHTML = ` Full Name: ${fName.value}`
     email.innerHTML =  `Email Address : ${emAddress.value}`
     number.innerHTML = `Phone Number : ${phNumber.value}`
-data.innerHTML = ` Hi,${fName.value} your details:`
+data.innerHTML = ` Hi,${fName.value} `
+
     
      submitted.innerHTML = `You have successfully submitted your data.Thank you!`
      alert(`Click "OK" to continue!`)
@@ -30,10 +32,11 @@ data.innerHTML = ` Hi,${fName.value} your details:`
         fName.value = ``
         emAddress.value = ``
         phNumber.value = ``
-        data.innerHTML = `No details submitted yet!`
-        fullname.innerHTML = `Please fill the form!`
+        data.innerHTML = `Please fill the form!`
+        fullname.innerHTML = ``
         email.innerHTML = ``
         number.innerHTML = ``
         submitted.innerHTML = ``
+   
      }
 }
