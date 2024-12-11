@@ -45,10 +45,8 @@ span{
 
 
 .nn{
-    display: grid;
-    place-content: center;
-    margin-top: 50px;
-   
+    padding: 10px;
+   margin: 15px;
 
 }
 

@@ -15,7 +15,7 @@ function myGirl () {
     fullname.innerHTML = ` Full Name: ${fName.value}`
     email.innerHTML =  `Email Address : ${emAddress.value}`
     number.innerHTML = `Phone Number : ${phNumber.value}`
-data.innerHTML = `${fName.value} we saved:`
+data.innerHTML = ` Hi,${fName.value} your details:`
     
      submitted.innerHTML = `You have successfully submitted your data.Thank you!`
      alert(`Click "OK" to continue!`)
